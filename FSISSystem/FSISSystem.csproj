@@ -52,15 +52,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BAL\Dummy.cs" />
     <Compile Include="DAL\FSISContext.cs" />
     <Compile Include="ENTITIES\Gaurdian.cs" />
     <Compile Include="ENTITIES\Player.cs" />
     <Compile Include="ENTITIES\Team.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="BLL\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <None Include="App.config" />
     <None Include="packages.config" />
